@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>
+            Links, Lists,and Tables
+        </title>
+        <body>
+            <h1>Lists</h1>
+            <h2>Ordered Lists</h2>
+            <hr>
+            <ol>
+                <li>Science</li>
+                <li>Mathematics</li>
+                <li>English</li>
+                <li>Business Studies</li>
+            </ol>
+            <hr>
+            <h2>Unordered Lists</h2>
+            <hr>
+            <ul>
+                <li>It Managing</li>
+                <li>Teaching</li>
+                <li>Civil Engineering</li>
+                <li>Neurosurgeon</li>
+            </ul>
+            <hr>
+            <hr>
+            <h1>Links</h1>
+            <a href="https://www.codingal.com">Codingal</a><br>
+            <a href="http://toytheater.com/">Toy Theatre</a><br>
+            <hr>
+            <h1>Tables</h1>
+            <table border="3px">
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Email</th>
+                </tr>
+                <tr>
+                    <td>Naomi</td>
+                    <td>10</td>
+                    <td>naomiokoh17@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Anna</td>
+                    <td>11</td>
+                    <td>anna123@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Ruth</td>
+                    <td>10</td>
+                    <td>ruth137@gmail.com</td>
+                </tr>
+            </table>
+        </body>
+    </head>
+</html>
