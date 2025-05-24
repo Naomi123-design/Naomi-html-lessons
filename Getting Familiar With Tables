@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>
+
+    </title>
+</head>
+
+<body>
+    <h1>Tables</h1>
+    <table border="3px">
+        <tr>
+            <th>Cartoon</th>
+            <th>Genre</th>
+            <th>Year Released</th>
+        </tr>
+        <tr>
+            <td>Totally Spies</td>
+            <td>Action</td>
+            <td>2001</td>
+        </tr>
+        <tr>
+            <td>Dora The Explorer</td>
+            <td>Adventure</td>
+            <td>2000</td>
+        </tr>
+        <tr>
+            <td>Doc McStuffins</td>
+            <td>Drama</td>
+            <td>2012</td>
+</body>
+
+</html>
