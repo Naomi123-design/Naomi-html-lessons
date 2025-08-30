@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+    </head>
+    <body>
+        <h2>Javascript Class</h2>
+        <p>How to use a Javascript class</p>
+        <script>
+            class cloth{
+                constructor(brand , year){
+                    this.brand = brand;
+                    this.year = year;
+
+                }
+            }
+            cloth1 = new cloth("prada" , 1913);
+            cloth2 = new cloth("lanvin" , 1889);
+            cloth3 = new cloth("louis vuitton", 1854);
+            document.write( "The brand " + cloth1.brand +" was created in the year " + cloth1.year);
+            document.write("<br>")
+            document.write( "The brand " + cloth2.brand +" was created in the year " + cloth2.year);
+            document.write("<br>")
+            document.write( "The brand " + cloth3.brand +" was created in the year " + cloth3.year);
+        </script>
+    </body>
+</html>
