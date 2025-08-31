@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+
+    </title>
+</head>
+
+<body>
+    <h2>Car models and their Prices</h2>
+    <p>These are a few cars and their Prices</p>
+    <script>
+        class car {
+            constructor(brand, price) {
+                this.brand = brand;
+                this.price = price;
+
+            }
+        }
+        car1 = new car("Toyota", 3500000);
+        car2 = new car("Honda", 1400000);
+        car3 = new car("Nissan", 1200000);
+        document.write("The brand " + car1.brand + " the price is " + car1.price);
+        document.write("<br>")
+        document.write("The brand " + car2.brand + " the price is " + car2.price);
+        document.write("<br>")
+        document.write("The brand " + car3.brand + " the price is " + car3.price);
+    </script>
+</body>
+
+</html>
