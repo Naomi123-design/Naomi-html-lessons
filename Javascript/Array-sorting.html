@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            
+        </title>
+    </head>
+    <body>
+        <h2>Array sorting in javascript</h2>
+        <button type = "button" onclick="ascending()">ascending</button>
+        <button type = "button" onclick="descending()">descending</button>
+        <button type = "button" onclick="ascendingorder()">ascendingorder</button>
+        <button type = "button" onclick="descendingorder()">descendingorder</button>
+        <p id="id"></p>
+        <p id="myid"></p>
+        <p id="demo"></p>
+        <script>
+            var age = [9 , 5 , 6 , 1 , 0 , 7 , 2 ]
+            var str = ["t" , "q" , "w" , "O" , "n" , "s" , "y"]
+            document.getElementById("id").innerHTML= age
+            document.getElementById("myid").innerHTML= str
+            function ascending(){
+                age.sort(function(a,b){return a-b})
+                document.getElementById("id").innerHTML = age
+            }
+            function descending(){
+                age.sort(function(a,b){return b-a})
+                document.getElementById("id").innerHTML = age
+            }
+            function ascendingorder(){
+                str.sort()
+                document.getElementById("myid").innerHTML = str
+            }
+            function descendingorder(){
+                str.reverse()
+                document.getElementById("myid").innerHTML = str
+            }
+            function myfunction(num){
+                return num*10
+            }
+            var newarray=age.map(myfunction)
+            document.getElementById("demo").innerHTML= newarray
+        </script>
+    </body>
+</html>
