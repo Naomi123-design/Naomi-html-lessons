@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+    </head>
+    <body>
+        <h3>Number sorting</h3>
+        <button type="button" onclick="ascending()">ascending</button>
+        <button type="button" onclick="descending()">descending</button>
+        <p id="demo"></p>
+        <script>
+            var age = [6 , 1 , 0 , 3 , 9 , 4 , 8]
+            document.getElementById("demo").innerHTML = age
+            function ascending(){
+                age.sort(function(a,b){return a-b})
+                document.getElementById("demo").innerHTML = age
+            }
+            function descending() {
+                age.sort(function (a, b) { return a + b })
+                document.getElementById("demo").innerHTML = age
+            }
+            function myfunction(num){
+                return num*10
+            }
+            var newarray = age.map(myfunction)
+            document.getElementById("demo").innerHTML = newarray
+        </script>
+    </body>
+</html>
