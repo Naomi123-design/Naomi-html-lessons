@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+    </head>
+    <body>
+        <h3>Asynchronous functions</h3>
+        <p>An asynchronous function is designed to handle operations that might take time to complete without blocking the main execution thread of the program.</p>
+        <p id="myid"></p>
+        <script>
+            async function add(a,b){
+                var response = await a+b;
+                display(response)
+            }
+            function display(some){
+                document.getElementById("myid").innerHTML = some;
+            }
+            add(12,7)
+        </script>
+    </body>
+</html>
