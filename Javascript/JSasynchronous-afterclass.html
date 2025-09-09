@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+    </head>
+    <body>
+        <h3>Learning subtraction</h3>
+        <p>This is an example of how to subtract using the <br>asynchronous function in js.</p>
+        <p id="demo"></p>
+        <script>
+             async function subtract(a,b){
+                var response = await a-b
+                display(response)
+             }
+             function display(some){
+                document.getElementById("demo").innerHTML = some;
+             }
+             subtract(12,9)
+        </script>
+    </body>
+</html>
