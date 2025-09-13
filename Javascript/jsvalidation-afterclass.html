@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+
+        </title>
+    </head>
+    <body>
+        <h2>Job Application</h2>
+        <p>Note:This job is strictly for 18+</p>
+        <p id="message"></p>
+        <p id="demo"></p>
+        name:<input type="text" name="fname"><br><br>
+        age:<input id="myid" type ="number" min = 18 required><br><br>
+        experience:<input type="str" name="fname"><br><br>
+        phone:<input type="str" name="fname">
+        <button type="button" onclick="myfunction()">submit</button>
+        <script>
+            function myfunction(){
+                var myinput = document.getElementById("myid")
+                if(!myinput.checkValidity()){
+                    document.getElementById("demo").innerHTML = myinput.validationMessage
+                }
+                else {
+                    document.getElementById("demo").innerHTML = "Correct input"
+                }
+            }
+        </script>
+    </body>
+</html>
